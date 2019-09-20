@@ -17,11 +17,52 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	
+	public static void textBox(){
+		System.out.println("                         /************\\");
+		System.out.println("                       <     \"Yum!\"   |");
+		System.out.println("                         \\___________ /");
 	}
+	 public static void catHead(){
+		System.out.println("     /\\-------/\\");
+		System.out.println("    (  ^  w  ^   )");
+		
+	}
+	public static void catBody(){
+		System.out.println("     )----------(_______");
+		System.out.println("    |                   )");
+		System.out.println("    |_|--|_|---------|_|");
+	
+	}
+	public static void boxEdge(){
+		System.out.println("+------------------------------+");
+	}
+	public static void boxSide(){
+		System.out.println("|                              |");
+	}
+	public static void theBox(){
+		boxEdge();
+		boxSide();
+		System.out.println("|                  <9))))<     |");
+		System.out.println("|    <9))))<                   |");
+		boxSide();
+		boxEdge();
+	}
+	public static void theBreak(){
+		System.out.println(" ");
+	}
+	public static void main (String[] args) {
+		textBox();
+		theBreak();
+		catHead();
+		catBody();
+		theBox();
+		theBreak();
+		System.out.println("A tail-less cat stands on top of a fish tank, hoping to snag a fish later for lunch.");
+	
+	
+	}
+
+
+
 }
